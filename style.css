@@ -1,0 +1,19 @@
+h1{
+ font-family: Courier;
+ color: red;
+ font-weight: lighter;
+ font-size: 14px;
+}
+
+h2 {
+ font-family: Courier;
+ color: grey;
+ font-weight: lighter;
+ font-size: 10px;
+}
+
+body{
+ color: black;
+ font-size: 8px;
+ font-family: Helvetica;
+}
