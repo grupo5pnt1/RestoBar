@@ -17,3 +17,12 @@ body{
  font-size: 8px;
  font-family: Helvetica;
 }
+
+#banner{
+    text-align: center;
+    background-image: url("https://www.supermercedes.com.ar/trapani/wp-content/uploads/2021/10/CAfe2.png");
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+   }
