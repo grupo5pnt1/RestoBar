@@ -1,21 +1,41 @@
 h1{
- font-family: Courier;
- color: red;
+ font-family: Georgia;
+ color: whitesmoke;
  font-weight: lighter;
- font-size: 30px;
+ font-size: 45px;
 }
 
 h2 {
  font-family: Courier;
- color: grey;
+ color: darkblue;
  font-weight: lighter;
- font-size: 10px;
+ font-size: 18px;
 }
+
+h3 {
+    font-family: Courier;
+    color: black;
+    font-weight: lighter;
+    font-size: 12px;
+   }
+
+h4 {
+    font-family: Courier;
+    color: grey;
+    font-weight: lighter;
+    font-size: 10px;
+   }
 
 body{
  color: black;
  font-size: 8px;
  font-family: Helvetica;
+ background-color: burlywood;
+}
+
+ul {
+    list-style-type:none;
+ 
 }
 
 #banner{
@@ -25,4 +45,9 @@ body{
     padding: 150px;
     color: white;
     text-shadow: 1px 1px 5px black;
+   }
+   #footer{
+    color: lightgrey;
+    font-size: 20px;
+    text-align: right;
    }
