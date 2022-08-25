@@ -2,35 +2,37 @@ h1{
  font-family: Georgia;
  color: whitesmoke;
  font-weight: lighter;
- font-size: 45px;
+ font-size: 60px;
 }
 
 h2 {
  font-family: Courier;
  color: darkblue;
  font-weight: lighter;
- font-size: 18px;
+ font-size: 30px;
 }
 
 h3 {
-    font-family: Courier;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 19px;
    }
 
 h4 {
-    font-family: Courier;
-    color: grey;
-    font-weight: lighter;
-    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6D213C;
+    font-weight: dark;
+    font-size: 14px;
+    line-height: 20px;
+
    }
 
 body{
  color: black;
  font-size: 8px;
  font-family: Helvetica;
- background-color: burlywood;
+ background-color: #D5C7BC;
 }
 
 ul {
@@ -51,3 +53,16 @@ ul {
     font-size: 20px;
     text-align: right;
    }
+
+   .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+  }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer;}
