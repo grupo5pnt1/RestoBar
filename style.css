@@ -1,49 +1,41 @@
-/*Paleta 1:
-    #D5C7BC Clarito
-    #6D213C Morado
-    #626D58 Verde 1
-    #507DBC Azul pálido
-    #386150 Verde 2
-*/
-
 h1{
-    font-family: Georgia;
-    color: whitesmoke;
-    font-weight: lighter;
-    font-size: 60px;
+ font-family: Georgia;
+ color: whitesmoke;
+ font-weight: lighter;
+ font-size: 45px;
 }
 
 h2 {
-    font-family: Courier;
-    color: darkblue;
-    font-weight: lighter;
-    font-size: 30px;
+ font-family: Courier;
+ color: darkblue;
+ font-weight: lighter;
+ font-size: 18px;
 }
 
 h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Courier;
     color: black;
     font-weight: lighter;
-    font-size: 19px;
-}
+    font-size: 12px;
+   }
 
 h4 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #6D213C;
-    font-weight: dark;
-    font-size: 14px;
-    line-height: 20px;
-}
+    font-family: Courier;
+    color: grey;
+    font-weight: lighter;
+    font-size: 10px;
+   }
 
 body{
-    color: black;
-    font-size: 8px;
-    font-family: Helvetica;
-    background-color: #D5C7BC;
+ color: black;
+ font-size: 8px;
+ font-family: Helvetica;
+ background-color: burlywood;
 }
 
 ul {
     list-style-type:none;
+ 
 }
 
 #banner{
@@ -53,42 +45,9 @@ ul {
     padding: 150px;
     color: white;
     text-shadow: 1px 1px 5px black;
-}
-
-#footer{
-    color: #D5C7BC;
+   }
+   #footer{
+    color: lightgrey;
     font-size: 20px;
-    text-align: center;
-    background-color: #6D213C;
-
-    /*display: flex;*/
-}
-
-footer ul{
-    margin: 10px;
-    margin-bottom: 5px;
-}
-
-footer p{
-    font-size: 15px;
-}
-
-footer i{
-    color: #D5C7BC;
-    font-size: 25px;
-    
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        'header header header header header header'
-        'menu main main main right right'
-        'footer footer footer footer footer footer';
-}
-
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer;}
+    text-align: right;
+   }
